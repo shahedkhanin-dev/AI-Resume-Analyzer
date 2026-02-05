@@ -14,17 +14,5 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 
-5. Scroll down → click **Commit changes**
 
-Done.
 
----
-
-## Method 2 — From VS Code (if editing locally)
-
-Open `README.md`, paste the same content, then run:
-
-```powershell
-git add README.md
-git commit -m "Updated README with project details"
-git push
